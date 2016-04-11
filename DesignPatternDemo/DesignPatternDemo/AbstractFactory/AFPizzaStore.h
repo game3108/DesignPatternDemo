@@ -1,5 +1,5 @@
 //
-//  FMPizzaStore.h
+//  AFPizzaStore.h
 //  DesignPatternDemo
 //
 //  Created by game3108 on 16/4/11.
@@ -7,9 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "FMPizza.h"
+#import "AFPizza.h"
 
-@protocol FMPizzaStore
-- (FMPizza *) createPizza:(PizzaType)pizzaType;
-- (FMPizza *) orderPizza:(PizzaType)pizzaType;
+@protocol AFPizzaStore
+- (AFPizza *) createPizza:(PizzaType)pizzaType;
+- (AFPizza *) orderPizza:(PizzaType)pizzaType;
 @end

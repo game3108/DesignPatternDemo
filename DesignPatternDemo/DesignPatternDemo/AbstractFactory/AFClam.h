@@ -1,5 +1,5 @@
 //
-//  FMPizzaStore.h
+//  AFClam.h
 //  DesignPatternDemo
 //
 //  Created by game3108 on 16/4/11.
@@ -7,9 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "FMPizza.h"
 
-@protocol FMPizzaStore
-- (FMPizza *) createPizza:(PizzaType)pizzaType;
-- (FMPizza *) orderPizza:(PizzaType)pizzaType;
+@interface AFClam : NSObject
+
 @end

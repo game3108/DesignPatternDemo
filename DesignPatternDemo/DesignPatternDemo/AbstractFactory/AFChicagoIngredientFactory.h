@@ -1,5 +1,5 @@
 //
-//  FMPizzaStore.h
+//  AFChicagoIngredientFactory.h
 //  DesignPatternDemo
 //
 //  Created by game3108 on 16/4/11.
@@ -7,9 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "FMPizza.h"
+#import "AFPizzaIngredientFactory.h"
 
-@protocol FMPizzaStore
-- (FMPizza *) createPizza:(PizzaType)pizzaType;
-- (FMPizza *) orderPizza:(PizzaType)pizzaType;
+@interface AFChicagoIngredientFactory : NSObject<AFPizzaIngredientFactory>
+
 @end
