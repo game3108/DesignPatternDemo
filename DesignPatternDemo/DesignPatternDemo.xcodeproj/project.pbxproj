@@ -15,6 +15,9 @@
 		AF214FF81CBAABE200FC4B20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF214FF61CBAABE200FC4B20 /* LaunchScreen.storyboard */; };
 		AF2150031CBAABE200FC4B20 /* DesignPatternDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2150021CBAABE200FC4B20 /* DesignPatternDemoTests.m */; };
 		AF21500E1CBAABE200FC4B20 /* DesignPatternDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF21500D1CBAABE200FC4B20 /* DesignPatternDemoUITests.m */; };
+		AFA803111CBE0A2700EBE42A /* SingletonGCDObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA803101CBE0A2700EBE42A /* SingletonGCDObject.m */; };
+		AFA803141CBE0A8200EBE42A /* SingletonSynObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA803131CBE0A8200EBE42A /* SingletonSynObject.m */; };
+		AFA803171CBE0B1800EBE42A /* SingletonInitializeObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA803161CBE0B1800EBE42A /* SingletonInitializeObject.m */; };
 		AFCF75E21CBB3FC000F76D62 /* SFPizzaSimpleFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCF75E11CBB3FC000F76D62 /* SFPizzaSimpleFactory.m */; };
 		AFCF75E51CBB3FD300F76D62 /* SFPizza.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCF75E41CBB3FD300F76D62 /* SFPizza.m */; };
 		AFCF75E81CBB3FEA00F76D62 /* SFCheesePizza.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCF75E71CBB3FEA00F76D62 /* SFCheesePizza.m */; };
@@ -77,6 +80,12 @@
 		AF2150091CBAABE200FC4B20 /* DesignPatternDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignPatternDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF21500D1CBAABE200FC4B20 /* DesignPatternDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DesignPatternDemoUITests.m; sourceTree = "<group>"; };
 		AF21500F1CBAABE200FC4B20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFA8030F1CBE0A2700EBE42A /* SingletonGCDObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingletonGCDObject.h; sourceTree = "<group>"; };
+		AFA803101CBE0A2700EBE42A /* SingletonGCDObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingletonGCDObject.m; sourceTree = "<group>"; };
+		AFA803121CBE0A8200EBE42A /* SingletonSynObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingletonSynObject.h; sourceTree = "<group>"; };
+		AFA803131CBE0A8200EBE42A /* SingletonSynObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingletonSynObject.m; sourceTree = "<group>"; };
+		AFA803151CBE0B1800EBE42A /* SingletonInitializeObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingletonInitializeObject.h; sourceTree = "<group>"; };
+		AFA803161CBE0B1800EBE42A /* SingletonInitializeObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingletonInitializeObject.m; sourceTree = "<group>"; };
 		AFCF75E01CBB3FC000F76D62 /* SFPizzaSimpleFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFPizzaSimpleFactory.h; sourceTree = "<group>"; };
 		AFCF75E11CBB3FC000F76D62 /* SFPizzaSimpleFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFPizzaSimpleFactory.m; sourceTree = "<group>"; };
 		AFCF75E31CBB3FD300F76D62 /* SFPizza.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFPizza.h; sourceTree = "<group>"; };
@@ -182,6 +191,7 @@
 		AF214FE71CBAABE200FC4B20 /* DesignPatternDemo */ = {
 			isa = PBXGroup;
 			children = (
+				AFA803181CBE0B6600EBE42A /* Prototype */,
 				AFCF75F21CBB502B00F76D62 /* AbstractFactory */,
 				AFCF75F31CBB502B00F76D62 /* FactoryMethod */,
 				AFCF75F41CBB502B00F76D62 /* Singleton */,
@@ -240,6 +250,13 @@
 				AFCF75F01CBB479500F76D62 /* SFPizzaStore.m */,
 			);
 			path = SimpleFactory;
+			sourceTree = "<group>";
+		};
+		AFA803181CBE0B6600EBE42A /* Prototype */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Prototype;
 			sourceTree = "<group>";
 		};
 		AFCF75F21CBB502B00F76D62 /* AbstractFactory */ = {
@@ -304,6 +321,12 @@
 		AFCF75F41CBB502B00F76D62 /* Singleton */ = {
 			isa = PBXGroup;
 			children = (
+				AFA8030F1CBE0A2700EBE42A /* SingletonGCDObject.h */,
+				AFA803101CBE0A2700EBE42A /* SingletonGCDObject.m */,
+				AFA803121CBE0A8200EBE42A /* SingletonSynObject.h */,
+				AFA803131CBE0A8200EBE42A /* SingletonSynObject.m */,
+				AFA803151CBE0B1800EBE42A /* SingletonInitializeObject.h */,
+				AFA803161CBE0B1800EBE42A /* SingletonInitializeObject.m */,
 			);
 			path = Singleton;
 			sourceTree = "<group>";
@@ -447,6 +470,7 @@
 				AFCF760C1CBB58C700F76D62 /* FMChicagoClamPizza.m in Sources */,
 				AFCF75E51CBB3FD300F76D62 /* SFPizza.m in Sources */,
 				AFCF75E81CBB3FEA00F76D62 /* SFCheesePizza.m in Sources */,
+				AFA803141CBE0A8200EBE42A /* SingletonSynObject.m in Sources */,
 				AFCF76001CBB57E400F76D62 /* FMChicagoPizzaStore.m in Sources */,
 				AFCF75FA1CBB570700F76D62 /* FMPizza.m in Sources */,
 				AFCF76361CBB824C00F76D62 /* AFPizza.m in Sources */,
@@ -456,7 +480,9 @@
 				AFCF762D1CBB7CF300F76D62 /* AFSauce.m in Sources */,
 				AF214FED1CBAABE200FC4B20 /* AppDelegate.m in Sources */,
 				AFCF75E21CBB3FC000F76D62 /* SFPizzaSimpleFactory.m in Sources */,
+				AFA803111CBE0A2700EBE42A /* SingletonGCDObject.m in Sources */,
 				AFCF761E1CBB7AF800F76D62 /* AFNYCheese.m in Sources */,
+				AFA803171CBE0B1800EBE42A /* SingletonInitializeObject.m in Sources */,
 				AFCF76121CBB7A3600F76D62 /* AFCheese.m in Sources */,
 				AFCF76241CBB7B1F00F76D62 /* AFNYClam.m in Sources */,
 				AFCF76301CBB7DE200F76D62 /* AFCheesePizza.m in Sources */,
