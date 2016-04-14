@@ -14,14 +14,14 @@
     [builder buildPlanner];
     [builder addDate:1];
     [builder addHotel:@"如家"];
-    [builder addTicket:@"上海马戏城"];
+    [builder addTicket:@"过山车"];
     return [builder getPlanner];
 }
 - (Planner *)createSecondDayPlanner:(id<AbstractBuilder>)builder{
     [builder buildPlanner];
     [builder addDate:2];
     [builder addHotel:@"汉庭"];
-    [builder addTicket:@"迪斯尼"];
+    [builder addTicket:@"鬼屋"];
     return [builder getPlanner];
 }
 @end
