@@ -15,6 +15,9 @@
 		AF214FF81CBAABE200FC4B20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF214FF61CBAABE200FC4B20 /* LaunchScreen.storyboard */; };
 		AF2150031CBAABE200FC4B20 /* DesignPatternDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2150021CBAABE200FC4B20 /* DesignPatternDemoTests.m */; };
 		AF21500E1CBAABE200FC4B20 /* DesignPatternDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF21500D1CBAABE200FC4B20 /* DesignPatternDemoUITests.m */; };
+		AF4AE2D71CBF929700387E66 /* Planner.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4AE2D61CBF929700387E66 /* Planner.m */; };
+		AF4AE2DD1CBF94B600387E66 /* VacationBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4AE2DC1CBF94B600387E66 /* VacationBuilder.m */; };
+		AF4AE2E01CBF968A00387E66 /* VacationPark.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4AE2DF1CBF968A00387E66 /* VacationPark.m */; };
 		AFA803111CBE0A2700EBE42A /* SingletonGCDObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA803101CBE0A2700EBE42A /* SingletonGCDObject.m */; };
 		AFA803141CBE0A8200EBE42A /* SingletonSynObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA803131CBE0A8200EBE42A /* SingletonSynObject.m */; };
 		AFA803171CBE0B1800EBE42A /* SingletonInitializeObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA803161CBE0B1800EBE42A /* SingletonInitializeObject.m */; };
@@ -81,6 +84,13 @@
 		AF2150091CBAABE200FC4B20 /* DesignPatternDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignPatternDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF21500D1CBAABE200FC4B20 /* DesignPatternDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DesignPatternDemoUITests.m; sourceTree = "<group>"; };
 		AF21500F1CBAABE200FC4B20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF4AE2D51CBF929700387E66 /* Planner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Planner.h; sourceTree = "<group>"; };
+		AF4AE2D61CBF929700387E66 /* Planner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Planner.m; sourceTree = "<group>"; };
+		AF4AE2D81CBF940C00387E66 /* AbstractBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractBuilder.h; sourceTree = "<group>"; };
+		AF4AE2DB1CBF94B600387E66 /* VacationBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VacationBuilder.h; sourceTree = "<group>"; };
+		AF4AE2DC1CBF94B600387E66 /* VacationBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VacationBuilder.m; sourceTree = "<group>"; };
+		AF4AE2DE1CBF968A00387E66 /* VacationPark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VacationPark.h; sourceTree = "<group>"; };
+		AF4AE2DF1CBF968A00387E66 /* VacationPark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VacationPark.m; sourceTree = "<group>"; };
 		AFA8030F1CBE0A2700EBE42A /* SingletonGCDObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingletonGCDObject.h; sourceTree = "<group>"; };
 		AFA803101CBE0A2700EBE42A /* SingletonGCDObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingletonGCDObject.m; sourceTree = "<group>"; };
 		AFA803121CBE0A8200EBE42A /* SingletonSynObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingletonSynObject.h; sourceTree = "<group>"; };
@@ -268,6 +278,13 @@
 		AFA8031C1CBE0CF500EBE42A /* Builder */ = {
 			isa = PBXGroup;
 			children = (
+				AF4AE2D51CBF929700387E66 /* Planner.h */,
+				AF4AE2D61CBF929700387E66 /* Planner.m */,
+				AF4AE2D81CBF940C00387E66 /* AbstractBuilder.h */,
+				AF4AE2DB1CBF94B600387E66 /* VacationBuilder.h */,
+				AF4AE2DC1CBF94B600387E66 /* VacationBuilder.m */,
+				AF4AE2DE1CBF968A00387E66 /* VacationPark.h */,
+				AF4AE2DF1CBF968A00387E66 /* VacationPark.m */,
 			);
 			path = Builder;
 			sourceTree = "<group>";
@@ -487,6 +504,7 @@
 				AFA803141CBE0A8200EBE42A /* SingletonSynObject.m in Sources */,
 				AFCF76001CBB57E400F76D62 /* FMChicagoPizzaStore.m in Sources */,
 				AFCF75FA1CBB570700F76D62 /* FMPizza.m in Sources */,
+				AF4AE2D71CBF929700387E66 /* Planner.m in Sources */,
 				AFCF76361CBB824C00F76D62 /* AFPizza.m in Sources */,
 				AFCF76181CBB7A9400F76D62 /* AFNYPizzaIngredientFactory.m in Sources */,
 				AFCF76271CBB7B2E00F76D62 /* AFChicagoClam.m in Sources */,
@@ -496,6 +514,7 @@
 				AFCF75E21CBB3FC000F76D62 /* SFPizzaSimpleFactory.m in Sources */,
 				AFA803111CBE0A2700EBE42A /* SingletonGCDObject.m in Sources */,
 				AFCF761E1CBB7AF800F76D62 /* AFNYCheese.m in Sources */,
+				AF4AE2DD1CBF94B600387E66 /* VacationBuilder.m in Sources */,
 				AFA803171CBE0B1800EBE42A /* SingletonInitializeObject.m in Sources */,
 				AFCF76121CBB7A3600F76D62 /* AFCheese.m in Sources */,
 				AFCF76241CBB7B1F00F76D62 /* AFNYClam.m in Sources */,
@@ -503,6 +522,7 @@
 				AFCF75F11CBB479500F76D62 /* SFPizzaStore.m in Sources */,
 				AFCF761B1CBB7AB000F76D62 /* AFChicagoIngredientFactory.m in Sources */,
 				AFCF76031CBB589400F76D62 /* FMNYCheesePizza.m in Sources */,
+				AF4AE2E01CBF968A00387E66 /* VacationPark.m in Sources */,
 				AFCF76061CBB58A400F76D62 /* FMNYClamPizza.m in Sources */,
 				AFCF76151CBB7A4500F76D62 /* AFClam.m in Sources */,
 				AFCF76091CBB58B300F76D62 /* FMChicagoCheesePizza.m in Sources */,
