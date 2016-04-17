@@ -18,6 +18,10 @@
 		AF4AE2D71CBF929700387E66 /* Planner.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4AE2D61CBF929700387E66 /* Planner.m */; };
 		AF4AE2DD1CBF94B600387E66 /* VacationBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4AE2DC1CBF94B600387E66 /* VacationBuilder.m */; };
 		AF4AE2E01CBF968A00387E66 /* VacationPark.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4AE2DF1CBF968A00387E66 /* VacationPark.m */; };
+		AF68E4C21CC32DA4001A3D7E /* OAUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF68E4C11CC32DA4001A3D7E /* OAUIViewController.m */; };
+		AF68E4C51CC330E4001A3D7E /* OASelectObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AF68E4C41CC330E4001A3D7E /* OASelectObject.m */; };
+		AF68E4CB1CC33E49001A3D7E /* EAAdaptee.m in Sources */ = {isa = PBXBuildFile; fileRef = AF68E4CA1CC33E49001A3D7E /* EAAdaptee.m */; };
+		AF68E4CE1CC33E5D001A3D7E /* EAAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = AF68E4CD1CC33E5D001A3D7E /* EAAdapter.m */; };
 		AFA803111CBE0A2700EBE42A /* SingletonGCDObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA803101CBE0A2700EBE42A /* SingletonGCDObject.m */; };
 		AFA803141CBE0A8200EBE42A /* SingletonSynObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA803131CBE0A8200EBE42A /* SingletonSynObject.m */; };
 		AFA803171CBE0B1800EBE42A /* SingletonInitializeObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA803161CBE0B1800EBE42A /* SingletonInitializeObject.m */; };
@@ -91,6 +95,15 @@
 		AF4AE2DC1CBF94B600387E66 /* VacationBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VacationBuilder.m; sourceTree = "<group>"; };
 		AF4AE2DE1CBF968A00387E66 /* VacationPark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VacationPark.h; sourceTree = "<group>"; };
 		AF4AE2DF1CBF968A00387E66 /* VacationPark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VacationPark.m; sourceTree = "<group>"; };
+		AF68E4C01CC32DA4001A3D7E /* OAUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAUIViewController.h; sourceTree = "<group>"; };
+		AF68E4C11CC32DA4001A3D7E /* OAUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAUIViewController.m; sourceTree = "<group>"; };
+		AF68E4C31CC330E4001A3D7E /* OASelectObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OASelectObject.h; sourceTree = "<group>"; };
+		AF68E4C41CC330E4001A3D7E /* OASelectObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OASelectObject.m; sourceTree = "<group>"; };
+		AF68E4C61CC33E1E001A3D7E /* EATarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EATarget.h; sourceTree = "<group>"; };
+		AF68E4C91CC33E49001A3D7E /* EAAdaptee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAAdaptee.h; sourceTree = "<group>"; };
+		AF68E4CA1CC33E49001A3D7E /* EAAdaptee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAAdaptee.m; sourceTree = "<group>"; };
+		AF68E4CC1CC33E5D001A3D7E /* EAAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAAdapter.h; sourceTree = "<group>"; };
+		AF68E4CD1CC33E5D001A3D7E /* EAAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAAdapter.m; sourceTree = "<group>"; };
 		AFA8030F1CBE0A2700EBE42A /* SingletonGCDObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingletonGCDObject.h; sourceTree = "<group>"; };
 		AFA803101CBE0A2700EBE42A /* SingletonGCDObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingletonGCDObject.m; sourceTree = "<group>"; };
 		AFA803121CBE0A8200EBE42A /* SingletonSynObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingletonSynObject.h; sourceTree = "<group>"; };
@@ -204,6 +217,7 @@
 		AF214FE71CBAABE200FC4B20 /* DesignPatternDemo */ = {
 			isa = PBXGroup;
 			children = (
+				AF68E4BD1CC31F36001A3D7E /* Adapter */,
 				AFA8031C1CBE0CF500EBE42A /* Builder */,
 				AFA803181CBE0B6600EBE42A /* Prototype */,
 				AFCF75F21CBB502B00F76D62 /* AbstractFactory */,
@@ -264,6 +278,38 @@
 				AFCF75F01CBB479500F76D62 /* SFPizzaStore.m */,
 			);
 			path = SimpleFactory;
+			sourceTree = "<group>";
+		};
+		AF68E4BD1CC31F36001A3D7E /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				AF68E4BE1CC31F36001A3D7E /* ExtendsAdapter */,
+				AF68E4BF1CC31F36001A3D7E /* ObjectAdapater */,
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		AF68E4BE1CC31F36001A3D7E /* ExtendsAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				AF68E4C61CC33E1E001A3D7E /* EATarget.h */,
+				AF68E4C91CC33E49001A3D7E /* EAAdaptee.h */,
+				AF68E4CA1CC33E49001A3D7E /* EAAdaptee.m */,
+				AF68E4CC1CC33E5D001A3D7E /* EAAdapter.h */,
+				AF68E4CD1CC33E5D001A3D7E /* EAAdapter.m */,
+			);
+			path = ExtendsAdapter;
+			sourceTree = "<group>";
+		};
+		AF68E4BF1CC31F36001A3D7E /* ObjectAdapater */ = {
+			isa = PBXGroup;
+			children = (
+				AF68E4C01CC32DA4001A3D7E /* OAUIViewController.h */,
+				AF68E4C11CC32DA4001A3D7E /* OAUIViewController.m */,
+				AF68E4C31CC330E4001A3D7E /* OASelectObject.h */,
+				AF68E4C41CC330E4001A3D7E /* OASelectObject.m */,
+			);
+			path = ObjectAdapater;
 			sourceTree = "<group>";
 		};
 		AFA803181CBE0B6600EBE42A /* Prototype */ = {
@@ -509,9 +555,11 @@
 				AFCF76181CBB7A9400F76D62 /* AFNYPizzaIngredientFactory.m in Sources */,
 				AFCF76271CBB7B2E00F76D62 /* AFChicagoClam.m in Sources */,
 				AFCF75FD1CBB57CB00F76D62 /* FMNYPizzaStore.m in Sources */,
+				AF68E4CE1CC33E5D001A3D7E /* EAAdapter.m in Sources */,
 				AFCF762D1CBB7CF300F76D62 /* AFSauce.m in Sources */,
 				AF214FED1CBAABE200FC4B20 /* AppDelegate.m in Sources */,
 				AFCF75E21CBB3FC000F76D62 /* SFPizzaSimpleFactory.m in Sources */,
+				AF68E4C21CC32DA4001A3D7E /* OAUIViewController.m in Sources */,
 				AFA803111CBE0A2700EBE42A /* SingletonGCDObject.m in Sources */,
 				AFCF761E1CBB7AF800F76D62 /* AFNYCheese.m in Sources */,
 				AF4AE2DD1CBF94B600387E66 /* VacationBuilder.m in Sources */,
@@ -524,7 +572,9 @@
 				AFCF76031CBB589400F76D62 /* FMNYCheesePizza.m in Sources */,
 				AF4AE2E01CBF968A00387E66 /* VacationPark.m in Sources */,
 				AFCF76061CBB58A400F76D62 /* FMNYClamPizza.m in Sources */,
+				AF68E4CB1CC33E49001A3D7E /* EAAdaptee.m in Sources */,
 				AFCF76151CBB7A4500F76D62 /* AFClam.m in Sources */,
+				AF68E4C51CC330E4001A3D7E /* OASelectObject.m in Sources */,
 				AFCF76091CBB58B300F76D62 /* FMChicagoCheesePizza.m in Sources */,
 				AFCF763F1CBB846200F76D62 /* AFChicagoPizzaStore.m in Sources */,
 				AFCF75EB1CBB407300F76D62 /* SFClamPizza.m in Sources */,
