@@ -27,6 +27,11 @@
 		AF68E4D81CC3A132001A3D7E /* ConcreteRemote.m in Sources */ = {isa = PBXBuildFile; fileRef = AF68E4D71CC3A132001A3D7E /* ConcreteRemote.m */; };
 		AF68E4DB1CC3A40F001A3D7E /* RCA.m in Sources */ = {isa = PBXBuildFile; fileRef = AF68E4DA1CC3A40F001A3D7E /* RCA.m */; };
 		AF68E4DE1CC3A41B001A3D7E /* Sony.m in Sources */ = {isa = PBXBuildFile; fileRef = AF68E4DD1CC3A41B001A3D7E /* Sony.m */; };
+		AF68E4E21CC3A7EB001A3D7E /* HomeTheaterFacade.m in Sources */ = {isa = PBXBuildFile; fileRef = AF68E4E11CC3A7EB001A3D7E /* HomeTheaterFacade.m */; };
+		AF68E4E51CC3A841001A3D7E /* DvdPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = AF68E4E41CC3A841001A3D7E /* DvdPlayer.m */; };
+		AF68E4E81CC3A852001A3D7E /* CdPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = AF68E4E71CC3A852001A3D7E /* CdPlayer.m */; };
+		AF68E4EB1CC3A874001A3D7E /* Screen.m in Sources */ = {isa = PBXBuildFile; fileRef = AF68E4EA1CC3A874001A3D7E /* Screen.m */; };
+		AF68E4EE1CC3A889001A3D7E /* TheaterLights.m in Sources */ = {isa = PBXBuildFile; fileRef = AF68E4ED1CC3A889001A3D7E /* TheaterLights.m */; };
 		AFA803111CBE0A2700EBE42A /* SingletonGCDObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA803101CBE0A2700EBE42A /* SingletonGCDObject.m */; };
 		AFA803141CBE0A8200EBE42A /* SingletonSynObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA803131CBE0A8200EBE42A /* SingletonSynObject.m */; };
 		AFA803171CBE0B1800EBE42A /* SingletonInitializeObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA803161CBE0B1800EBE42A /* SingletonInitializeObject.m */; };
@@ -119,6 +124,16 @@
 		AF68E4DA1CC3A40F001A3D7E /* RCA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCA.m; sourceTree = "<group>"; };
 		AF68E4DC1CC3A41B001A3D7E /* Sony.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sony.h; sourceTree = "<group>"; };
 		AF68E4DD1CC3A41B001A3D7E /* Sony.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sony.m; sourceTree = "<group>"; };
+		AF68E4E01CC3A7EB001A3D7E /* HomeTheaterFacade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTheaterFacade.h; sourceTree = "<group>"; };
+		AF68E4E11CC3A7EB001A3D7E /* HomeTheaterFacade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTheaterFacade.m; sourceTree = "<group>"; };
+		AF68E4E31CC3A841001A3D7E /* DvdPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DvdPlayer.h; sourceTree = "<group>"; };
+		AF68E4E41CC3A841001A3D7E /* DvdPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DvdPlayer.m; sourceTree = "<group>"; };
+		AF68E4E61CC3A852001A3D7E /* CdPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CdPlayer.h; sourceTree = "<group>"; };
+		AF68E4E71CC3A852001A3D7E /* CdPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CdPlayer.m; sourceTree = "<group>"; };
+		AF68E4E91CC3A874001A3D7E /* Screen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Screen.h; sourceTree = "<group>"; };
+		AF68E4EA1CC3A874001A3D7E /* Screen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Screen.m; sourceTree = "<group>"; };
+		AF68E4EC1CC3A889001A3D7E /* TheaterLights.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheaterLights.h; sourceTree = "<group>"; };
+		AF68E4ED1CC3A889001A3D7E /* TheaterLights.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheaterLights.m; sourceTree = "<group>"; };
 		AFA8030F1CBE0A2700EBE42A /* SingletonGCDObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingletonGCDObject.h; sourceTree = "<group>"; };
 		AFA803101CBE0A2700EBE42A /* SingletonGCDObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingletonGCDObject.m; sourceTree = "<group>"; };
 		AFA803121CBE0A8200EBE42A /* SingletonSynObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingletonSynObject.h; sourceTree = "<group>"; };
@@ -232,6 +247,7 @@
 		AF214FE71CBAABE200FC4B20 /* DesignPatternDemo */ = {
 			isa = PBXGroup;
 			children = (
+				AF68E4DF1CC3A7C4001A3D7E /* Facade */,
 				AF68E4CF1CC37540001A3D7E /* Bridge */,
 				AF68E4BD1CC31F36001A3D7E /* Adapter */,
 				AFA8031C1CBE0CF500EBE42A /* Builder */,
@@ -333,16 +349,33 @@
 			children = (
 				AF68E4D01CC39FE9001A3D7E /* RemoveControl.h */,
 				AF68E4D11CC39FE9001A3D7E /* RemoveControl.m */,
-				AF68E4D31CC3A03E001A3D7E /* TV.h */,
-				AF68E4D41CC3A03E001A3D7E /* TV.m */,
 				AF68E4D61CC3A132001A3D7E /* ConcreteRemote.h */,
 				AF68E4D71CC3A132001A3D7E /* ConcreteRemote.m */,
+				AF68E4D31CC3A03E001A3D7E /* TV.h */,
+				AF68E4D41CC3A03E001A3D7E /* TV.m */,
 				AF68E4D91CC3A40F001A3D7E /* RCA.h */,
 				AF68E4DA1CC3A40F001A3D7E /* RCA.m */,
 				AF68E4DC1CC3A41B001A3D7E /* Sony.h */,
 				AF68E4DD1CC3A41B001A3D7E /* Sony.m */,
 			);
 			path = Bridge;
+			sourceTree = "<group>";
+		};
+		AF68E4DF1CC3A7C4001A3D7E /* Facade */ = {
+			isa = PBXGroup;
+			children = (
+				AF68E4E01CC3A7EB001A3D7E /* HomeTheaterFacade.h */,
+				AF68E4E11CC3A7EB001A3D7E /* HomeTheaterFacade.m */,
+				AF68E4E31CC3A841001A3D7E /* DvdPlayer.h */,
+				AF68E4E41CC3A841001A3D7E /* DvdPlayer.m */,
+				AF68E4E61CC3A852001A3D7E /* CdPlayer.h */,
+				AF68E4E71CC3A852001A3D7E /* CdPlayer.m */,
+				AF68E4E91CC3A874001A3D7E /* Screen.h */,
+				AF68E4EA1CC3A874001A3D7E /* Screen.m */,
+				AF68E4EC1CC3A889001A3D7E /* TheaterLights.h */,
+				AF68E4ED1CC3A889001A3D7E /* TheaterLights.m */,
+			);
+			path = Facade;
 			sourceTree = "<group>";
 		};
 		AFA803181CBE0B6600EBE42A /* Prototype */ = {
@@ -591,17 +624,21 @@
 				AF68E4DE1CC3A41B001A3D7E /* Sony.m in Sources */,
 				AFCF75FD1CBB57CB00F76D62 /* FMNYPizzaStore.m in Sources */,
 				AF68E4CE1CC33E5D001A3D7E /* EAAdapter.m in Sources */,
+				AF68E4E21CC3A7EB001A3D7E /* HomeTheaterFacade.m in Sources */,
 				AFCF762D1CBB7CF300F76D62 /* AFSauce.m in Sources */,
 				AF214FED1CBAABE200FC4B20 /* AppDelegate.m in Sources */,
 				AFCF75E21CBB3FC000F76D62 /* SFPizzaSimpleFactory.m in Sources */,
 				AF68E4C21CC32DA4001A3D7E /* OAUIViewController.m in Sources */,
+				AF68E4E51CC3A841001A3D7E /* DvdPlayer.m in Sources */,
 				AFA803111CBE0A2700EBE42A /* SingletonGCDObject.m in Sources */,
+				AF68E4E81CC3A852001A3D7E /* CdPlayer.m in Sources */,
 				AF68E4DB1CC3A40F001A3D7E /* RCA.m in Sources */,
 				AFCF761E1CBB7AF800F76D62 /* AFNYCheese.m in Sources */,
 				AF4AE2DD1CBF94B600387E66 /* VacationBuilder.m in Sources */,
 				AFA803171CBE0B1800EBE42A /* SingletonInitializeObject.m in Sources */,
 				AFCF76121CBB7A3600F76D62 /* AFCheese.m in Sources */,
 				AFCF76241CBB7B1F00F76D62 /* AFNYClam.m in Sources */,
+				AF68E4EE1CC3A889001A3D7E /* TheaterLights.m in Sources */,
 				AFCF76301CBB7DE200F76D62 /* AFCheesePizza.m in Sources */,
 				AFCF75F11CBB479500F76D62 /* SFPizzaStore.m in Sources */,
 				AF68E4D81CC3A132001A3D7E /* ConcreteRemote.m in Sources */,
@@ -613,6 +650,7 @@
 				AFCF76151CBB7A4500F76D62 /* AFClam.m in Sources */,
 				AF68E4C51CC330E4001A3D7E /* OASelectObject.m in Sources */,
 				AFCF76091CBB58B300F76D62 /* FMChicagoCheesePizza.m in Sources */,
+				AF68E4EB1CC3A874001A3D7E /* Screen.m in Sources */,
 				AF68E4D51CC3A03E001A3D7E /* TV.m in Sources */,
 				AFCF763F1CBB846200F76D62 /* AFChicagoPizzaStore.m in Sources */,
 				AFCF75EB1CBB407300F76D62 /* SFClamPizza.m in Sources */,
